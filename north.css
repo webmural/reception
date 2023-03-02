@@ -1,0 +1,18 @@
+:root {
+  background: hotpink;
+  background-image: conic-gradient(violet, silver, hotpink, hotpink, silver);
+  color: black;
+}
+
+:any-link {
+  color: inherit;
+}
+
+::selection {
+  background: black;
+  color: hotpink;
+}
+
+[contenteditable] {
+  background: violet;
+}

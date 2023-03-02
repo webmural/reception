@@ -1,0 +1,61 @@
+:root {
+  font-family: sans-serif;
+  font-size: max(3ch, 3vmin + 2vmax);
+  line-height: 1.618;
+}
+
+:focus {
+  outline: thick groove;
+}
+
+.free {
+  margin: auto;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.wavy {
+  text-decoration-style: wavy;
+}
+
+main {
+  padding: 1em;
+}
+
+figure {
+  margin: auto;
+  margin-block-end: 10vh;
+}
+
+figure {
+  margin: auto;
+  margin-block-end: 10vh;
+}
+
+figcaption {
+  display: inline-flex;
+  font-size: 2em;
+  margin: auto;
+  margin-block-end: 30vh;
+}
+
+h2 {
+  display: table;
+  margin-left: auto;
+}
+
+q {
+  display: table;
+  margin-left: auto;
+  quotes: "((" "))";
+}
+
+del {
+  text-decoration-style: double;
+}
+
+.wah {
+  letter-spacing: 1ex;
+}
